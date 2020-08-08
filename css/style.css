@@ -1,0 +1,160 @@
+/* ==== Google font ==== */
+@import url("https://fonts.googleapis.com/css?family=Noto+Serif:400,400italic,700|Open+Sans:300,400,600,700");
+
+/* === fontawesome === */
+@import url("font-awesome.css");
+
+/* ===================================
+ General
+==================================== */
+
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 1.6em;
+  background-color: #fafafa;
+  overflow-x: hidden;
+}
+
+.page {
+  margin: 50px auto;
+  max-width: 550px;
+  border: 1px solid #eee;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.page2 {
+  margin: 50px auto;
+  max-width: 980px;
+  border: 1px solid #eee;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.contact-area,
+.mar-bot40,
+.tab-content {
+  margin-top: 60px;
+}
+
+#header {
+  overflow: hidden;
+  background-color: #fff;
+}
+
+.nav-tabs {
+  overflow: hidden;
+  border-bottom: 0;
+  position: relative;
+}
+.nav-tabs li {
+  float: left;
+  width: 190px;
+  list-style: none;
+  margin-bottom: 0;
+  margin-left: 50px;
+  margin-top: 50px;
+}
+.nav-tabs li.box {
+  width: auto;
+}
+.nav-tabs li a {
+  display: block;
+  position: relative;
+  height: 150px;
+  -webkit-transition: color ease 0.4s, background ease 0.4s;
+  -moz-transition: color ease 0.4s, background ease 0.4s;
+  -ms-transition: color ease 0.4s, background ease 0.4s;
+  -o-transition: color ease 0.4s, background ease 0.4s;
+  transition: color ease 0.4s, background ease 0.4s;
+  color: #fff;
+  text-decoration: none;
+  margin-left: 0;
+  margin-bottom: 15px;
+  border-radius: 15%;
+}
+.nav-tabs li.Ticket a {
+  background: #50c0e9;
+  margin-left: 16px;
+  margin-right: -16px;
+}
+.nav-tabs li.Recurso-humanos a {
+  background: #a8d324;
+  margin-left: 16px;
+  margin-right: -16px;
+}
+.nav-tabs li.Inventario a {
+  background: #d32020;
+  margin-left: 16px;
+  margin-right: -16px;
+}
+.nav-tabs li.Finanzas a {
+  background: #1daf00;
+  margin-left: 16px;
+  margin-right: -16px;
+}
+.nav-tabs li.Mesajero a {
+  background: #32cdfb;
+  margin-left: 16px;
+  margin-right: -16px;
+}
+.nav-tabs li.Consulta a {
+  background: #3b5898;
+  margin-left: 16px;
+  margin-right: -16px;
+}
+
+.nav-tabs li a:hover {
+  background: #fff !important;
+  border-radius: 5%;
+}
+.nav-tabs li a span {
+  font-size: 50px;
+  line-height: 50px;
+  display: block;
+  position: absolute;
+  top: 50px;
+  right: 60px;
+  text-align: center;
+  overflow: hidden;
+  font-weight: normal;
+  left: 50px;
+}
+
+.nav-tabs li a p {
+  font-size: 15px;
+  line-height: 50px;
+  display: block;
+  position: absolute;
+  top: 100px;
+  text-align: center;
+  overflow: hidden;
+  font-weight: normal;
+  left: 20px;
+  right: 20px;
+}
+
+.nav-tabs li.portfolio a span {
+  top: 50px;
+}
+.nav-tabs li.contacts a span {
+  left: 50px;
+}
+.nav-tabs li.facebook a span {
+  right: 50px;
+}
+.nav-tabs li a:hover,
+.nav-tabs li.current a {
+  color: #ccc;
+}
+.container2 {
+  margin-top: 100px;
+}
+
+body {
+  background-color: #d5d8d6;
+}
